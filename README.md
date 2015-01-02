@@ -13,8 +13,6 @@ dopasowanie dla trzech podanych sekwencji. Implementacja zostanie zrealizowana w
 
 2. Wstep:
 
-// TODO - Dopasowanie pary sekwencji - def
-
 Dopasowanie trzech podanych sekwencji jest szczególnym przypadkiem dopasowania wielu sekwencji. Problem
 
 ten jest kategoryzowany jako problem obliczeniowo trudny. Metoda dokładna wykorzystująca programowanie 
@@ -25,39 +23,6 @@ wynosi n.
 
 3. Opis algorytmu:
 
-Porównaniu podawane są trzy sekwencje DNA o alfabecie E= {A, C, T, G, _}
-
-Wartości poszczególnych komórek są obliczane zgodnie z zależnością (1).
-
-Funkcja e(si
-
-Miara podobieństwa jest wyrażona równaniem (2) 
-
-),si∈E oznacza miarę podobieństwa elementów si
-
-, ...,s k
-
-Wartości e(si
-
-),e (si
-
-, t
-
-,uk
-
-j
-
-),e (t
-
-Warunki brzegowe algorytmu obliczane są zgodnie z zalęznością (3).
-
-gdzie d - kara za przerwę
-
-Złożoność pamięciowa algorytmu wynosi O(l
-
-stworzonej z porównywanych sekwencji wymagana jest wykonanie 7 porównań opartych na wcześniej 
-
-obliczonych wartościach. 
 
 4. Założenia optymalizacyjne:
 

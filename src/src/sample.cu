@@ -7,7 +7,7 @@
 
 #include <vector>
 
-void someKernel(std::vector<int>& vec) {
+__global__ void someKernel(int* vec, int N) {
 
 	vec[0] = vec[1] + vec[2];
 }

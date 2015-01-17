@@ -4,8 +4,8 @@ project( MBI )
 #    Set CMake Install Path
 set (CMAKE_INSTALL_PREFIX ${CMAKE_BINARY_DIR} CACHE PATH "default install path" FORCE )
 
-set(CMAKE_CXX_FLAGS ${CMAKE_CXX_COMPILER_FLAGS} -std=c++11)
-set(CUDA_NVCC_FLAGS ${CUDA_NVCC_FLAGS} -std=c++11;-gencode arch=compute_20,code=sm_21)
+set(CMAKE_CXX_FLAGS ${CMAKE_CXX_COMPILER_FLAGS})
+set(CUDA_NVCC_FLAGS ${CUDA_NVCC_FLAGS} -gencode arch=compute_20,code=sm_21)
 add_definitions ("-Wall") 
 
 #	CMake module path for custom module finding

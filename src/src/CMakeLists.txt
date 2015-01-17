@@ -10,4 +10,4 @@ add_library(cpplib ${CPP_SOURCES})
 
 add_executable(exe main.cpp)
 target_link_libraries(exe ${GLOG_LIBRARIES} cpplib cudalib)
- 
+    
